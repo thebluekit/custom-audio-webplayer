@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="vanilla.js"></script>
+</head>
+<body>
+    <div id="custom-player">
+        <button id="play-pause">Play</button>
+        <input id="timeline" type="range" min="0" max="100" step="1" value="0">
+        <p id="audio-info"></p>
+        <audio controls id="real-player">
+            <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+</body>
+</html>
